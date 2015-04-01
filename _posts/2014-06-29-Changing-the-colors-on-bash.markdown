@@ -24,3 +24,4 @@ categories: other
 ![bash]
 
 [bash]: http://hyusnev.weebly.com/uploads/2/6/2/8/26283997/4748351.png
+[bashrc]: http://bashrcgenerator.com
