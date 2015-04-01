@@ -1,11 +1,7 @@
 ---
 layout: page
-title: About
+title: За мен
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Авторът на блога е най-вече ИТ ентусиаст със знания от тип "от всичко по-малко" със скромен опит в мрежовите технологии,програмиране,системна администрация и работа с Windows,Linux и BSD базирани системи.През свободното си време освен за четене на разни документации се отдава на странни хобита от рода на фотография,планинарство и риболов. Уважава споделянето на знания и труда на програмистите които пишат свободен софтуер.Linux фен.Естествено...
