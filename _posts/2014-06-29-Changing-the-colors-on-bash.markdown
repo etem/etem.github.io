@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Промяна на цветовете в bash"
-date:   2015-04-01 11:39:31
+date:   2014-06-29 11:39:31
 comments : true
 categories: other
 ---
