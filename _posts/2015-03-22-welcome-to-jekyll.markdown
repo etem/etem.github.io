@@ -33,7 +33,7 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
         // Required: on line below, replace text in quotes with your forum shortname
-	    var disqus_shortname = 'FORUM SHORTNAME GOES HERE';
+	    var disqus_shortname = 'Bavarian';
 	        
 	        /* * * DON'T EDIT BELOW THIS LINE * * */
 		    (function() {
