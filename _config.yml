@@ -2,6 +2,7 @@
 title: Bavarian's IT Blog 
 email: mr.cyberpower@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
+    Linux,мрежи и още нещо...
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://etem.github.io" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
