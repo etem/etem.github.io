@@ -22,6 +22,6 @@ categories: other
 
 Който трябва да копирате вътре във файла ~/.bashrc,за предпочитане в края.След като направите всички промени във въпросния файл натиснете Ctrl+X и Enter за запаметяване на промените.Честито вече разполагате с цветен терминал :) Може да изпробвате промените веднага като се релогнете отново в системата.Ето го резултатът при мен:
 
-![bash](https://github.com/etem/etem.github.io/blob/master/images/bash.png)
+![bash](https://github.com/etem/etem.github.io/raw/master/images/bash.png)
 
 [bashrc]: http://bashrcgenerator.com
