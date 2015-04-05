@@ -4,7 +4,7 @@ title:  "Решение на проблема с GPG Error"
 date:   2014-07-01 11:39:31
 comments : true
 categories: Linux
-banner_image: pgp-post/apt-get.jpg
+banner_image: /pgp-post/apt-get.jpg
 ---
 
 Поради някаква причина понякога се случва системата инцидентно да затрие някой от ключовете за хранилищата.Тогава най-вероятно при въвеждане на **sudo apt-get update** ще видите горното съобщение за грешка :
