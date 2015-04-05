@@ -13,6 +13,7 @@ author_thumbnail: "/assets/images/avatar2.png" # Author avatar
 theme:
   # Color for sidebar bar, links, etc
   highlight_color: "#205081" #205081" # "#272935"
+  disqus_shortname: "bavarianit"
   # Social media links, leave blank to ignore
   social: 
     github: etem
