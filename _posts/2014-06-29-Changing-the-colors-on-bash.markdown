@@ -3,7 +3,8 @@ layout: post
 title:  "Промяна на цветовете в bash"
 date:   2014-06-29 11:39:31
 comments : true
-categories: other
+categories: Linux
+banner_image: bash-cover.png
 ---
 
 Здравейте.След доста ровене открих как да променя цветовете в bash на различни Линукс дистрибуции.
