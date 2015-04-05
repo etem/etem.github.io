@@ -26,3 +26,10 @@ banner_image: bash-cover.png
 ![bash](https://github.com/etem/etem.github.io/raw/master/assets/images/bash.png)
 
 [bashrc]: http://bashrcgenerator.com
+
+/*
+ * Show disqus comments
+ */
+jQuery(document).ready(function() {
+    initDisqusComments();
+});
