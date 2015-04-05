@@ -2,7 +2,7 @@
 layout: page
 title: Архив
 permalink: /archive/
-banner_image: assets/images/sample-banner-image-.jpg
+banner_image: sample-banner-image-.jpg
 ---
 
 <div>
