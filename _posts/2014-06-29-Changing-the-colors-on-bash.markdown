@@ -27,9 +27,3 @@ banner_image: bash-cover.png
 
 [bashrc]: http://bashrcgenerator.com
 
-/*
- * Show disqus comments
- */
-jQuery(document).ready(function() {
-    initDisqusComments();
-});
