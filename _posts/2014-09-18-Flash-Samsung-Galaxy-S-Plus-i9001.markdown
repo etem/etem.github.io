@@ -45,7 +45,7 @@ banner_image: android/cover.png
 
 Ето едно видео в което е показано как се прави с разликата че там вече има инсталиран CWM Recovery и мода който е даден при линковете на видеото не проработи при мен :
 
-[![Flash](https://www.youtube.com/watch?v=__9HpKcxlyg/0.jpg)](https://www.youtube.com/watch?v=__9HpKcxlyg)
+[!Flash](https://www.youtube.com/watch?v=__9HpKcxlyg)
 
 [easyroot]: (http://forum.xda-developers.com/showthread.php?t=1253707)
 [cwm]: (http://d-h.st/nQK)
