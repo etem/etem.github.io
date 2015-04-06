@@ -41,4 +41,14 @@ banner_image: android/cover.png
 Изчаквате няколко минути докато се инсталира и след успешна инсталация пак през същата опция избирате да се инсталира Google Apps(gapps архива).Рестартирате и честито вече имате най-новата версия на андроид за i9001 който всъщност е мод на Cyanogen.
 
 Ето едно видео в което е показано как се прави с разликата че там вече има инсталиран CWM Recovery и мода който е даден при линковете на видеото не проработи при мен :
-<iframe width="640" height="360" src="https://www.youtube.com/embed/__9HpKcxlyg?feature=player_embedded" frameborder="0" allowfullscreen></iframe>
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=https://www.youtube.com/watch?v=__9HpKcxlyg
+" target="_blank"><img src="http://img.youtube.com/vi/https://www.youtube.com/watch?v=__9HpKcxlyg/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="560" height="315" border="10" /></a>
+
+
+
+[easyroot]: (http://forum.xda-developers.com/showthread.php?t=1253707)
+[cwm]: (http://d-h.st/nQK)
+[cyanogenmod]: (http://forum.xda-developers.com/showthread.php?t=2579431)
+[gapps]: (http://d-h.st/users/dhacker29?fld_id=27426)
