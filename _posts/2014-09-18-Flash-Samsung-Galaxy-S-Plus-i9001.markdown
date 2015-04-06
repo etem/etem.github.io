@@ -35,7 +35,7 @@ banner_image: android/cover.png
 
 **3**.Флашване на Recovery Manager-а,който е един вид специален интерфейс през който се бърникат неща като инсталиране на външни програми,хард ресет на телефона и др.Флашването на стоковият Recovery Manager е задължително условие за да може да се извърши инсталирането на новата операционна система.
 Трябва пак да влезете в Recovery Mode с бутона за включване и и увеличаване на звука.След това изчиствате телефона с **Wipe Data/Factory Reset и Wipe cache partition**.
-След като свърши чистенето пак през **apply update from sdcard** посочвате архива на CWM(CWM_6.0.4.9_***).След успешна инсталация рестартирате през **Reboot Now** и телефонът вече има инсталиран новото CWM Recovery.
+След като свърши чистенето пак през **apply update from sdcard** посочвате архива на CWM(CWM_6.0.4.9_*).След успешна инсталация рестартирате през **Reboot Now** и телефонът вече има инсталиран новото CWM Recovery.
 
 **4**.Инсталиране на самата ОС(Android 4.4.2).Изключвате телефона отново и чрез същата комбинация от бутони влизате в Recovery Manager-а,който след инсталацията на CWM ще е доста променен.
 Чистете кеша с **Wipe Data/Factory Reset** и **Wipe cache partition**.
@@ -45,7 +45,7 @@ banner_image: android/cover.png
 
 Ето едно видео в което е показано как се прави с разликата че там вече има инсталиран CWM Recovery и мода който е даден при линковете на видеото не проработи при мен :
 
-[![Alt text for your video](http://img.youtube.com/vi/__9HpKcxlyg/0.jpg)](http://www.youtube.com/watch?v=__9HpKcxlyg)
+[![Flash Samsung Galaxy](http://img.youtube.com/vi/__9HpKcxlyg/0.jpg)](http://www.youtube.com/watch?v=__9HpKcxlyg)
 
 
 [easyroot]: (http://forum.xda-developers.com/showthread.php?t=1253707)
