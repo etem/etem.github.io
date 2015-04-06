@@ -16,11 +16,11 @@ banner_image: android/cover.png
 
 [Easy Root for i9001](http://forum.xda-developers.com/showthread.php?t=1253707)(Незадължителен ако вече сте root-нали телефона си)
 
-[CWM Recovery v6.0.4.9][cwm]
+[CWM Recovery v6.0.4.9](http://d-h.st/nQK)
 
-[Cyanogen Mod 11 by ADC-Team Release 12][cyanogenmod]
+[Cyanogen Mod 11 by ADC-Team Release 12](http://forum.xda-developers.com/showthread.php?t=2579431)
 
-[Google Apps for Android KitKat][gapps](Свалете си това което е най-актуално)
+[Google Apps for Android KitKat](http://d-h.st/users/dhacker29?fld_id=27426)(Свалете си това което е най-актуално)
 
 
 Подгответе предварително файловете като ги копирате директно в  SD картата без да ги слагате в папки.
@@ -48,7 +48,3 @@ banner_image: android/cover.png
 [![Flash Samsung Galaxy](http://img.youtube.com/vi/__9HpKcxlyg/0.jpg)](http://www.youtube.com/watch?v=__9HpKcxlyg)
 
 
-[easyroot]: (http://forum.xda-developers.com/showthread.php?t=1253707)
-[cwm]: (http://d-h.st/nQK)
-[cyanogenmod]: (http://forum.xda-developers.com/showthread.php?t=2579431)
-[gapps]: (http://d-h.st/users/dhacker29?fld_id=27426)
