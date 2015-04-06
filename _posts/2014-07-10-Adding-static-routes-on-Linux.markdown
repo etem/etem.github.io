@@ -3,7 +3,7 @@ layout: post
 title:  "Добавяне на статични пътища в Linux"
 date:   2014-07-10 11:39:31
 comments : true
-categories: Linux,networking
+categories: linux networking
 banner_image: networking/network2.jpg
 ---
 Ако правите мрежови експерименти с GNS3 или настройвате машина с Линукс като рутер понякога може да ви се наложи да настроите статични пътища(static routes).В Ubuntu базираните дистрибуции с които съм по-запознат това може да стане по няколко начина.

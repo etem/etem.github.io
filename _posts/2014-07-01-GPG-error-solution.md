@@ -3,7 +3,7 @@ layout: post
 title:  "Решение на проблема с GPG Error"
 date:   2014-07-01 11:39:31
 comments : true
-categories: Linux
+categories: linux
 banner_image: apt-get.jpg
 ---
 

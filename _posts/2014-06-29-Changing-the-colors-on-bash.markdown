@@ -3,7 +3,7 @@ layout: post
 title:  "Промяна на цветовете в bash"
 date:   2014-06-29 11:39:31
 comments : true
-categories: Linux
+categories: linux
 banner_image: bash-cover.png
 ---
 
