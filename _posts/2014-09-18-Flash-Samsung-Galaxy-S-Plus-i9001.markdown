@@ -15,8 +15,11 @@ banner_image: android/cover.png
 Преди да започнете ще трябва да си свалите някои файлове от интернет.А те са :
 
 [Easy Root for i9001][easyroot](Незадължителен ако вече сте root-нали телефона си)
+
 [CWM Recovery v6.0.4.9][cwm]
+
 [Cyanogen Mod 11 by ADC-Team Release 12][cyanogenmod]
+
 [Google Apps for Android KitKat][gapps](Свалете си това което е най-актуално)
 
 
@@ -42,11 +45,7 @@ banner_image: android/cover.png
 
 Ето едно видео в което е показано как се прави с разликата че там вече има инсталиран CWM Recovery и мода който е даден при линковете на видеото не проработи при мен :
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=https://www.youtube.com/watch?v=__9HpKcxlyg
-" target="_blank"><img src="http://img.youtube.com/vi/https://www.youtube.com/watch?v=__9HpKcxlyg/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="560" height="315" border="10" /></a>
-
-
+![video](https://www.youtube.com/watch?v=__9HpKcxlyg)
 
 [easyroot]: (http://forum.xda-developers.com/showthread.php?t=1253707)
 [cwm]: (http://d-h.st/nQK)
