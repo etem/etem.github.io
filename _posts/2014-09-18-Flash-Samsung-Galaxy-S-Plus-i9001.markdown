@@ -14,7 +14,7 @@ banner_image: android/cover.png
 
 Преди да започнете ще трябва да си свалите някои файлове от интернет.А те са :
 
-[Easy Root for i9001]((http://forum.xda-developers.com/showthread.php?t=1253707)(Незадължителен ако вече сте root-нали телефона си)
+[Easy Root for i9001](http://forum.xda-developers.com/showthread.php?t=1253707)(Незадължителен ако вече сте root-нали телефона си)
 
 [CWM Recovery v6.0.4.9][cwm]
 
