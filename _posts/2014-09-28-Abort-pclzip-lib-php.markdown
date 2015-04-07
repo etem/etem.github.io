@@ -14,8 +14,12 @@ banner_image: php/php.png
 Ако използвате Ubuntu 14.04 Server може да обновите PHP-то много лесно чрез PPA:
 
 **sudo add-apt-repository ppa:ondrej/php5**
+
 **sudo apt-get update**
+
 **sudo apt-get upgrade**
+
 **sudo apt-get install php5**
+
 
 След изпълнение на горните команди и рестарт на сървъра ще свършат главоболията със zlib екстеншъна на PHP :)
