@@ -8,7 +8,7 @@ banner_image: calendar/calendar.png
 ---
 
 Една добра новина за тези които използват Google Calendar и Ubuntu.
-Вече има програма която е индикатор и един вид индикатор и клиент за услугата Google Calendar.Програмата поддържа доста опции измежду които са :
+Вече има програма която е и индикатор и клиент за услугата Google Calendar.Програмата поддържа доста опции измежду които са :
 
 1. Синхронизация с Google Calendar(най-важното).Като вие избирате през колко време да се синхронизира.
 
@@ -23,7 +23,9 @@ banner_image: calendar/calendar.png
 
 
 **sudo add-apt-repository ppa:atareao/atareao**
+
 **sudo apt-get update**
+
 **sudo apt-get install calendar-indicator**
 
 
