@@ -20,15 +20,11 @@ categories: linux python
 За да накарате vim да разбере Python-ския стил на писане добавете следния код във вашия ~/.vimrc файл(Ако няма създадете такъв):
 
 
-**syntax on filetype indent plugin on**
-
-**set tabstop=8**
-
-**set expandtab**
-
-**set shiftwidth=4**
-
-**set softtabstop=4**
+`**syntax on filetype indent plugin on**`
+`**set tabstop=8**`
+`**set expandtab**`
+`**set shiftwidth=4**`
+`**set softtabstop=4**`
 
 
 След това идва ред на code autocompletion,или просто казано автоматичното довършване на кода,ако това е правилният превод.
