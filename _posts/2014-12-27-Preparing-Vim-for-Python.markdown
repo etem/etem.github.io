@@ -62,12 +62,3 @@ categories: linux python
 **colorscheme elflord**
 
 И така вашият vim вече е готов за програмиране на Python :)
-
-
-~~~ python
-from math import sqrt
-
-a = 1
-b = 2 
-c = a.sqrt()
-~~~
