@@ -36,14 +36,15 @@ categories: linux python
 
 При Ubuntu деривативите може да го инсталирате супер лесно,с командите :
 
-**sudo apt-get install vim**
+{% highlight bash %}
+sudo apt-get install vim
 
-**sudo apt-get install vim-youcompleteme**
+sudo apt-get install vim-youcompleteme
 
-**apt-get install vim-addon-manager**
+apt-get install vim-addon-manager
 
-**vam install youcompleteme**
-
+vam install youcompleteme
+{% endhighlight %}
 
 Ето и снимка от въпросната добавка :
 
