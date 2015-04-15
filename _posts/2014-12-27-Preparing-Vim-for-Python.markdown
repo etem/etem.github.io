@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Конфигуриране на хибридна графика при Ubuntu 14.04.Nvidia Prime."
+title:  "Подготвяне на vim за програмиране на Python"
 date:   2014-12-27 12:39:31
 comments : true
 categories: linux python
