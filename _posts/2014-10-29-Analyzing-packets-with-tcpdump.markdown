@@ -27,10 +27,10 @@ categories: linux networking
 
 Ето пример в който стартирам tcpdump на wlan0 и пускам ping към 8.8.8.8,който е публичният DNS сървър на Google :
 
-![dump1](https://github.com/etem/etem.github.io/raw/master/assets/images/tcpdump/dump1.png)
-
-
 ![dump2](https://github.com/etem/etem.github.io/raw/master/assets/images/tcpdump/dump2.png)
+
+
+![dump1](https://github.com/etem/etem.github.io/raw/master/assets/images/tcpdump/dump1.png)
 
 
 На следващата снимка се вижда как DHCP клиента търси адреси по мрежата :
