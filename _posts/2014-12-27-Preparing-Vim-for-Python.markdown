@@ -13,20 +13,27 @@ categories: linux python
 
 С подходящите плъгини може да превърнете vim от текстообработваща програма към пълнофункционално IDE с подръжка на syntax highlight,autoindent и autocomplete.
 Например аз използвам vim като IDE за програмиране на Python.
+
 Като за начало едно от най-важните неща за един програмист на Python е autoindent-a.
 Това практически е автоматичното наместване на кода навътре след дефиниция на функция,клас,цикъл и подобни.
+
 За да накарате vim да разбере Python-ския стил на писане добавете следния код във вашия ~/.vimrc файл(Ако няма създадете такъв):
 
 
 **syntax on filetype indent plugin on**
+
 **set tabstop=8**
+
 **set expandtab**
+
 **set shiftwidth=4**
+
 **set softtabstop=4**
 
 
 След това идва ред на code autocompletion,или просто казано автоматичното довършване на кода,ако това е правилният превод.
 Безспорно фаворитът ми в тази област е [YouCompleteMe](https://github.com/Valloric/YouCompleteMe).
+
 При Ubuntu деривативите може да го инсталирате супер лесно,с командите :
 
 **sudo apt-get install vim**
