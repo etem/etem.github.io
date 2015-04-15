@@ -25,17 +25,17 @@ banner_image: nvidia/cover.png
 
 Софтуерът при Ubuntu и другите Линукс дистрибуции,който позволява да се случва превключването е Nvidia Prime.За да работи обаче са нужни няколко условия:
 
-1. Трябва да изберете драйвера на Nvidia от менюто Additional Drivers,няма да работи ако сте избрали Nouveau драйвера.
+1.Трябва да изберете драйвера на Nvidia от менюто Additional Drivers,няма да работи ако сте избрали Nouveau драйвера.
 
 ![nvidia1](https://github.com/etem/etem.github.io/raw/master/assets/images/nvidia/nvidia1.png)
 
 
-2. Ако по някаква случайност сте инсталирали пакета bumblebee трябва да го премахнете :
+2.Ако по някаква случайност сте инсталирали пакета bumblebee трябва да го премахнете :
 
 **sudo apt-get --purge remove bumblebee***
 
 
-3. Инсталирайте Nvidia Prime с командата :
+3.Инсталирайте Nvidia Prime с командата :
 
 **sudo apt-get install nvidia-prime**
 
