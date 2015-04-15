@@ -36,7 +36,7 @@ categories: linux python
 
 При Ubuntu деривативите може да го инсталирате супер лесно,с командите :
 
-{% highlight bash %}
+~~~ bash
 sudo apt-get install vim
 
 sudo apt-get install vim-youcompleteme
@@ -44,7 +44,7 @@ sudo apt-get install vim-youcompleteme
 apt-get install vim-addon-manager
 
 vam install youcompleteme
-{% endhighlight %}
+~~~
 
 Ето и снимка от въпросната добавка :
 
