@@ -20,15 +20,15 @@ categories: linux python
 За да накарате vim да разбере Python-ския стил на писане добавете следния код във вашия ~/.vimrc файл(Ако няма създадете такъв):
 
 
-`syntax on filetype indent plugin on`
+**syntax on filetype indent plugin on**
 
-`set tabstop=8`
+**set tabstop=8**
 
-`set expandtab`
+**set expandtab**
 
-`set shiftwidth=4`
+**set shiftwidth=4**
 
-`set softtabstop=4`
+**set softtabstop=4**
 
 
 След това идва ред на code autocompletion,или просто казано автоматичното довършване на кода,ако това е правилният превод.
@@ -36,15 +36,15 @@ categories: linux python
 
 При Ubuntu деривативите може да го инсталирате супер лесно,с командите :
 
-~~~ bash
-sudo apt-get install vim
 
-sudo apt-get install vim-youcompleteme
+**sudo apt-get install vim**
 
-apt-get install vim-addon-manager
+**sudo apt-get install vim-youcompleteme**
 
-vam install youcompleteme
-~~~
+**sudo apt-get install vim-addon-manager**
+
+**vam install youcompleteme**
+
 
 Ето и снимка от въпросната добавка :
 
@@ -62,3 +62,12 @@ vam install youcompleteme
 **colorscheme elflord**
 
 И така вашият vim вече е готов за програмиране на Python :)
+
+
+~~~ python
+from math import sqrt
+
+a = 1
+b = 2 
+c = a.sqrt()
+~~~
