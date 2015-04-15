@@ -14,7 +14,7 @@ banner_image: radio/cover.png
 
 При Ubuntu програмата може да се инсталира чрез командите :
 
-**echo "deb http://dl.bintray.com/etem/deb /" | sudo tee -a /etc/apt/sources.list**
+`echo "deb http://dl.bintray.com/etem/deb /" | sudo tee -a /etc/apt/sources.list`  (Добавя хранилището за лесна инсталация и бъдещи ъпдейти)
 
 **sudo apt-get update**
 
