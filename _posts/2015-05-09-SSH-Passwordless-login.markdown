@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Настройване на SSH за достъп със сертификати"
+title:  "Настройване на SSH за достъп чрез сертификати"
 date:   2015-05-09 14:42:31
 comments : true
 categories: linux
