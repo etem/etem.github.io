@@ -12,22 +12,22 @@ categories: linux
 Решението се оказа малко грубо но много просто.
 Въвеждате серията от команди за настройване на режима в /etc/rc.local : 
 
- 
+ &nbsp;
 
 **echo powersave >  /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor**
-
+&nbsp;
 **echo powersave >  /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor**
 
- 
+ &nbsp;
 
 
 Естествено ако процесорът ви е 4-ядрен ще трябват още 2 команди за другите ядра.Също така заменяте "powersave" с режима който искате да работи процесорът като performance,conservative и др.
 
 След това забранявате изпълнението на "ondemand" като махате правата за изпълнение : 
- 
+ &nbsp;
 
 **sudo chmod -x /etc/init.d/ondemand**
 
- 
+ &nbsp;
 
 Вече със сигурност няма как да се изпълни скрипта :) 
