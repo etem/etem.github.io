@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Задържане на пакети при Ubuntu"
-date:   2015-05-27 11:22:31
+date:   2015-05-28 11:22:31
 comments : true
 categories: linux
 banner_image: ubuntulogo.png
