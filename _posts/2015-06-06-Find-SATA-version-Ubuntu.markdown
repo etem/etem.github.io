@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Как да проверим коя версия на SATA поддържа компютъра ни"
+title:  "Как да проверим коя версия на SATA поддържа компютъра"
 date:   2015-06-06 13:10:31
 comments : true
 categories: linux
