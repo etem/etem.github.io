@@ -15,7 +15,7 @@ banner_image: satalogo.png
 За да проверите версията на SATA при Debian,Ubuntu и техните деривативи,трябва да имате инсталиран пакета **smartmontools**.
 След като го инсталирате изпълнете : 
 
-**sudo smartctl -a /dev/sda | grep "SATA"** 
+**sudo smartctl -a /dev/sda** **|** **grep "SATA"** 
 
 
 Ще ви изпише съобщение подобно на това :
