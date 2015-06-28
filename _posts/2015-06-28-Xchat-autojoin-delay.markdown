@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Xchat забавяне(delay) на autojoin функцията"
+title:  "Xchat забавяне на autojoin функцията"
 date:   2015-06-28 22:11:31
 comments : true
 categories: other
