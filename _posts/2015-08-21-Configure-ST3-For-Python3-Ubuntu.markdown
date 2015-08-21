@@ -4,7 +4,7 @@ title:  "Конфигуриране на Python3 build system при ST3 - Ubunt
 date:   2015-08-21 09:38:31
 comments : true
 categories: other
-banner_image: stotinkaos.png
+banner_image: st3.png
 ---
 
 Отскоро започнах да пиша изцяло на Python3 както се препоръчва и смених Sublime Text версия 2 със 3.
@@ -13,7 +13,7 @@ banner_image: stotinkaos.png
 
 Ако се сблъскате със същия проблем това което трябва да направите е следното : 
 
-Отваряте ST3 и от Tools > Build System избирате New Build System.
+Oтворете ST3 и от **Tools** > **Build System** изберете **New Build System**.
 Ще ви отвори подпрозорец със шаблон за нова build система.
 Изтрийте шаблона и въведете следния код : 
 
@@ -24,3 +24,7 @@ banner_image: stotinkaos.png
     "encoding": "utf8",
     
 }</code></pre>
+
+Запаметете файла с **Ctrl+S** и му задайте някакво име с разширение **sublime-build**.Например python3.sublime-build.Рестартирайте ST3 и от Tools > Build System изберете системата която току що създадохте - python3.
+
+Това ще работи при всички Ubuntu деривативи но при други системи може да се наложи да редактирате пътя на командата до Python3.
