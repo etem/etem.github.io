@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Конфигуриране на Python3 build system при ST3 - Ubuntu"
-date:   2015-08-21 99:38:31
+date:   2015-08-21 09:38:31
 comments : true
 categories: other
 banner_image: stotinkaos.png
