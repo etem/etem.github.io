@@ -13,24 +13,28 @@ banner_image: st3.png
 
 **wget** http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3083_x32.tar.bz2  за 32 битовата и 
 
-**wget** http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3083_x64.tar.bz2 за 64 битовата версия.
+**wget** http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3083_x64.tar.bz2 за 64 битовата версия.  
 
-Разархивирате:
+
+Разархивирате:  
 
 **tar vxjf sublime_text_3_build_*.tar.bz2**
 
 
-С администраторски права премествате новосъздадената папка **sublime_text_3** на по подходящо място - например /opt/ : 
+С администраторски права премествате новосъздадената папка **sublime_text_3** на по подходящо място - например /opt/ :  
+
 
 **sudo mv sublime_text_3 /opt/**
 
 
-Създавате symlink на изпълнимия файл на програмата в /usr/bin:
+Създавате symlink на изпълнимия файл на програмата в /usr/bin:  
+
 
 **sudo ln -s /opt/sublime_text_3/sublime_text /usr/bin/sublime_text**
 
 
-Вече може да изпълнявате програмата от терминала с командата **sublime_text**.
+Вече може да изпълнявате програмата от терминала с командата **sublime_text**.  
+
 
 
 
