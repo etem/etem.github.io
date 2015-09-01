@@ -18,19 +18,22 @@ banner_image: st3.png
 
 Разархивирайте архива:  
 
-**tar vxjf sublime_text_3_build_*.tar.bz2**
+**tar vxjf sublime_text_3_build_*.tar.bz2**  
+
 
 
 С администраторски права преместете новосъздадената папка **sublime_text_3** на по подходящо място - например /opt/ :  
 
 
-**sudo mv sublime_text_3 /opt/**
+**sudo mv sublime_text_3 /opt/**  
+
 
 
 Създайте symlink на изпълнимия файл на програмата в /usr/bin:  
 
 
-**sudo ln -s /opt/sublime_text_3/sublime_text /usr/bin/sublime_text**
+**sudo ln -s /opt/sublime_text_3/sublime_text /usr/bin/sublime_text**  
+
 
 
 Вече може да изпълнявате програмата от терминала с командата **sublime_text**.  
