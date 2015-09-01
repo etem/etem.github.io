@@ -31,10 +31,14 @@ banner_image: st3.png
 
 
 
+
+
 Създайте symlink на изпълнимия файл на програмата в /usr/bin:  
 
 
 **sudo ln -s /opt/sublime_text_3/sublime_text /usr/bin/sublime_text**  
+
+
 
 
 
@@ -44,11 +48,15 @@ banner_image: st3.png
 
 
 
+
+
 За да създадете десктоп икона е нужно да редактирате някои полета на файла /opt/sublime_text_3/sublime_text.desktop.Отворете файла с някой текстов редактор и променете полетата **Exec** и **Icon** по следния начин : 
 
 **Exec=/opt/sublime_text_3/sublime_text %F**
 
 **Icon=/opt/sublime_text_3/Icon/32x32/sublime-text.png**
+
+
 
 
 
