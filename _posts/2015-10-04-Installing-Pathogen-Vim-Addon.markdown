@@ -38,7 +38,7 @@ git clone https://github.com/bling/vim-airline ~/.vim/bundle/vim-airline
 Pathogen ще се погрижи за зареждането и.По подразбиране лентите за състоянието(statuslines) в Airline са скрити.За да промените това е нужно да добавите **set laststatus=2** във вашият ~/.vimrc файл.
 Също така може да промените темата по подразбиране с :AirlineTheme molokai например.Това ще промени темата за едно стартиране.За да я направите по-подразбиране е нужно да добавите **let g:airline_theme='molokai'** във вашият ~/.vimrc файл.
 
-Можете да видите наличните теми от [тук](https://github.com/bling/vim-airline/wiki/Screenshots)
+Можете да видите наличните теми от [тук](https://github.com/bling/vim-airline/wiki/Screenshots).
 
 
 **Забележка!**За да се изобразят специалните символи е нужно да имате инсталирани [Powerline](https://github.com/powerline/fonts) шрифтове и командата **let g:airline_powerline_fonts = 1** във vimrc файла ви.
