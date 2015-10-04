@@ -35,7 +35,7 @@ Pathogen вече е готов за работа и ще се зарежда п
 git clone https://github.com/bling/vim-airline ~/.vim/bundle/vim-airline
 </code></pre>
 
-Pathogen ще се погрижи за зареждането и.
+И Pathogen ще се погрижи за зареждането и.
 
 По подразбиране лентите за състоянието(statuslines) в Airline са скрити.За да промените това е нужно да добавите **set laststatus=2** във  ~/.vimrc.
 Също така може да промените темата по подразбиране с :AirlineTheme molokai например.Това ще промени темата за едно стартиране.За да я направите по-подразбиране е нужно да добавите **let g:airline_theme='molokai'** във вашият ~/.vimrc.
