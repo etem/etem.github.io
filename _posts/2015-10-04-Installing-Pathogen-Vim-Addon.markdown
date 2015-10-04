@@ -16,7 +16,7 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 </code></pre>
 
-За да проработи плъгина е нужно да добавите следния ред във вашият ~/.vimrc файл:
+За да проработи плъгина трябва да добавите следния ред във вашият ~/.vimrc файл:
 
 <pre><code>
 execute pathogen#infect()
