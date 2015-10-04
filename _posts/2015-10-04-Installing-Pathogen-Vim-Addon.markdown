@@ -23,13 +23,13 @@ execute pathogen#infect()
 </code></pre>
 
 Pathogen вече е готов за работа и ще се зарежда при стартиране на Vim.
-За да инсталирате други плъгини е нужно да ги поставите в директорията ~/.vim/bundle/.Ще дам пример с Vim-airline.
+За да инсталирате други плъгини е нужно просто да ги поставите в директорията ~/.vim/bundle/.Ще дам пример с Vim-airline.
 
 
 <h3>Инсталиране на Vim-Airline чрез Pathogen</h3>
 
 
-За да инсталирате Vim-Airline и изобщо всеки друг плъгин чрез Pathogen е нужно просто да копирате плъгина в ~/.vim/bundle/ директорията:
+За да инсталирате Vim-Airline поставете плъгина във ~/.vim/bundle/ директорията:
 
 <pre><code>
 git clone https://github.com/bling/vim-airline ~/.vim/bundle/vim-airline
