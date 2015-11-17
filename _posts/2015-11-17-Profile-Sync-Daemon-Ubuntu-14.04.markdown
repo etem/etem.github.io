@@ -22,8 +22,11 @@ wget https://github.com/graysky2/profile-sync-daemon/archive/v5.75.tar.gz
 </code></pre>
 
 След разархивиране и превключване на директорията е нужно да изпълним командата:
+
 **make**
+
 следвана от : 
+
 **sudo make install-upstart-all**
 
 
