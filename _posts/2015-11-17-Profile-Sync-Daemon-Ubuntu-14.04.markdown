@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Инсталиране на Profile Sync Daemon в Ubuntu 14.04"
+title:  "Инсталиране на Profile Sync Daemon при Ubuntu 14.04"
 date:   2015-11-17 10:18:31
 comments : true
 categories: linux
