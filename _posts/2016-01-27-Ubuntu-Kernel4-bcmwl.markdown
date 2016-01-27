@@ -13,8 +13,11 @@ categories: linux
 
 
 **sudo apt-get remove bcmwl-kernel-source**
+
 **sudo add-apt-repository ppa:longsleep/bcmwl**
+
 **sudo apt-get update**
+
 **sudo apt-get install bcmwl-kernel-source**
 
 
