@@ -4,6 +4,7 @@ title:  "GNS3 - Инсталация под Ubuntu"
 date:   2016-02-10 10:23:31
 comments : true
 categories: linux
+banner_image: networking/gns.png
 ---
 
 Доскоро най-актуалният готов пакет на GNS3 за Ubuntu беше с версия 0.86.За да се използват версии от 1 нагоре беше нужно да се компилира от сорс код.
