@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Sublime Text3 Cyrillic encoding"
+title:  "Sublime Text3 Cyrillic encoding fix"
 date:   2016-04-06 15:47:31
 comments : true
 categories: other
