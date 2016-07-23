@@ -24,9 +24,9 @@ categories: linux
 2.Добавете следното PPA хранилище и инсталирайте новия драйвер: 
 
 
-`sudo add-apt-repository ppa:hanipouspilot/rtlwifi`
-`sudo apt-get update`
-`sudo apt-get install rtlwifi-new-dkms linux-firmware`
+**sudo add-apt-repository ppa:hanipouspilot/rtlwifi**
+**sudo apt-get update**
+**sudo apt-get install rtlwifi-new-dkms linux-firmware**
 
 
 Пакетът поддържа драйвери за следните чипове : 
@@ -38,8 +38,8 @@ DKMS ще се погрижи за това драйвера да работи �
 
 
 
-
-3.Рестартирайте системата и тествайте връзката отново.
+3
+.Рестартирайте системата и тествайте връзката отново.
 
 
 
