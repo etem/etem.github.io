@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Въведение в OSPF.Част 2 - Установяване на съседства,избор на DR и BDR и обмен на маршрутна информация."
-date:   2015-01-04 12:39:31
+date:   2014-01-04 12:39:31
 comments : true
 categories: networking
 banner_image: networking/ospf.png
