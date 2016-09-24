@@ -1,6 +1,6 @@
 # Site settings
 title: Bavarian's Blog
-tagline: Linux, мрежи и още нещо.
+tagline: Linux,мрежи и още нещо
 email: mr.cyberpower@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Networker,Python programmer and Linux addict.
@@ -13,7 +13,7 @@ author_thumbnail: "/assets/images/avatar3.png" # Author avatar
 theeme:
   # Color for sidebar bar, links, etc
   highlight_color: "#205081" #205081" # "#272935"
-  disqus_shortname: "bavarianit"
+
   # Social media links, leave blank to ignore
   social: 
     github: etem
@@ -30,7 +30,7 @@ theeme:
   show_author_info: true
 
   # Disqus comments manager - shortname
-  # disqus_shortname: gaya-webcreate
+
 
   # Google Analytics/Webmaster key, leave blank to ignore
   google_analytics_key: UA-53673736-2
@@ -40,7 +40,7 @@ theeme:
 markdown: kramdown
 
 # Permalinks
-permalink: pretty
+permalink:        pretty
 
 # Pagination config
 paginate: 5
@@ -59,4 +59,6 @@ exclude:
 sass:
   sass_dir: assets/css/_sass
   style: :compressed
-  
+
+gems: [jekyll-paginate]
+
