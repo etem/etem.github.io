@@ -10,7 +10,7 @@ logourl: /assets/images/logo.png # Site logo
 author: "Etem Hyusnev"
 author_thumbnail: "/assets/images/avatar3.png" # Author avatar
 # Theme customization - please change from the defaults!
-theme:
+theeme:
   # Color for sidebar bar, links, etc
   highlight_color: "#205081" #205081" # "#272935"
   disqus_shortname: "bavarianit"
@@ -59,3 +59,4 @@ exclude:
 sass:
   sass_dir: assets/css/_sass
   style: :compressed
+  
