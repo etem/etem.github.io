@@ -6,7 +6,6 @@ comments : true
 categories: linux
 banner_image: bash-cover.png
 ---
-{% include disqus.html %}
 
 
 Здравейте. След доста ровене открих как да променя цветовете в bash на различни Линукс дистрибуции.
@@ -29,3 +28,4 @@ banner_image: bash-cover.png
 
 [bashrc]: http://bashrcgenerator.com
 
+{% include disqus.html %}
