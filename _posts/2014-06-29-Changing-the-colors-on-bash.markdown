@@ -6,6 +6,8 @@ comments : true
 categories: linux
 banner_image: bash-cover.png
 ---
+{% include disqus.html %}
+
 
 Здравейте. След доста ровене открих как да променя цветовете в bash на различни Линукс дистрибуции.
 За пример аз използвам Ubuntu Server 14.04 LTS и CentOS 6.5.Доколкото разбрах тази опция автоматично е спряна в Debian базираните дистрибуции.
