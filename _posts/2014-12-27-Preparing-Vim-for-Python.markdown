@@ -62,3 +62,6 @@ categories: linux python
 **colorscheme elflord**
 
 И така вашият vim вече е готов за програмиране на Python :)
+
+
+{% include disqus.html %}

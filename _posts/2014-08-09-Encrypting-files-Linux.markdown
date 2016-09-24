@@ -32,3 +32,5 @@ banner_image: encryption/1.jpg
 За повече информация погледнете **man gpg**.
 
 [cast]: http://en.wikipedia.org/wiki/CAST-128
+
+{% include disqus.html %}

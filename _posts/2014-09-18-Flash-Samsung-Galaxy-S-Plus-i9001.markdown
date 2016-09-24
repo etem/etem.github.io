@@ -48,3 +48,4 @@ banner_image: android/cover.png
 [![Flash Samsung Galaxy](http://img.youtube.com/vi/__9HpKcxlyg/0.jpg)](http://www.youtube.com/watch?v=__9HpKcxlyg)
 
 
+{% include disqus.html %}

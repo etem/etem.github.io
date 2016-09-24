@@ -36,3 +36,5 @@ categories: linux networking
 На следващата снимка се вижда как DHCP клиента търси адреси по мрежата :
 
 ![dump3](https://github.com/etem/etem.github.io/raw/master/assets/images/tcpdump/dump3.png)
+
+{% include disqus.html %}

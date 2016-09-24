@@ -162,3 +162,5 @@ banner_image: networking/ospf.png
 Край на Въведение в OSPF.Част - 2.
 
 В следващата част ще разгледаме значението на областите, видове рутери и типовете LSA в OSPF.
+
+{% include disqus.html %}

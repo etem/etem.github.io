@@ -25,3 +25,5 @@ banner_image: satalogo.png
 `SATA Version is:  SATA 2.6, 3.0 Gb/s`
 
 
+
+{% include disqus.html %}

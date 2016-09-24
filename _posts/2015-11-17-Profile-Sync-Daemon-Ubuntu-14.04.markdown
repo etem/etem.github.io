@@ -54,6 +54,7 @@ wget https://github.com/graysky2/profile-sync-daemon/archive/v5.75.tar.gz
 ![psd](https://github.com/etem/etem.github.io/raw/master/assets/images/PSD.png)
 
 
+{% include disqus.html %}
 
 
 

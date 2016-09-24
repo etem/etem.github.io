@@ -14,3 +14,5 @@ categories: other
 
 ![cl1](https://github.com/etem/etem.github.io/raw/master/assets/images/enc.png)
 
+
+{% include disqus.html %}

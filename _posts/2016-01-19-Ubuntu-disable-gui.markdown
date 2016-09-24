@@ -23,3 +23,7 @@ categories: linux
 **systemctl set-default graphical.target**
 
 
+{% include disqus.html %}
+
+
+

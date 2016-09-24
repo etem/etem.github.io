@@ -39,3 +39,5 @@ screen /tmp/con-pty
 
 
 [Източник](https://automatthias.wordpress.com/2008/09/13/serial-port-in-virtualbox/)
+
+{% include disqus.html %}

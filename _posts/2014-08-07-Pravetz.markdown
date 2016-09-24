@@ -30,3 +30,5 @@ categories: other
 
 [source]: http://www.pravetz.info/pravetz-16.html
 
+
+{% include disqus.html %}

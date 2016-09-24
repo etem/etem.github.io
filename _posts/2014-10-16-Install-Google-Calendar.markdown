@@ -37,3 +37,5 @@ banner_image: calendar/calendar.png
 
 Източник :
 [WebUpd8](http://www.webupd8.org/2013/11/google-calendar-indicator-020-released.html)
+
+{% include disqus.html %}

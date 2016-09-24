@@ -20,3 +20,7 @@ categories: other
 Аз лично го настроих на 7 секунди.
 По подразбиране той е 2.
 
+
+{% include disqus.html %}
+
+

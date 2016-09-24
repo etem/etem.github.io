@@ -62,3 +62,6 @@ banner_image: st3.png
 
 Накрая копирате файла /opt/sublime_text_3/sublime_text.desktop в ~/Desktop/ и сте готови за работа :) 
 Може да се наложи да излезете и пак да влезете в системата(Log Out & Log In),  за да се визуализира иконката коректно.
+
+
+{% include disqus.html %}

@@ -22,3 +22,5 @@ sudo apt-get install gns3-gui
 
 Заедно с последната команда ще се инсталират и зависимостите като qemu,vpcs и други.
 
+
+{% include disqus.html %}

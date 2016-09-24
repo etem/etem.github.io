@@ -31,4 +31,6 @@ categories: linux
 **sudo chmod -x /etc/init.d/ondemand**
 
 
-Скрипът вече със сигурност няма как да се изпълни :) 
+Скриптът вече със сигурност няма как да се изпълни :) 
+
+{% include disqus.html %}
