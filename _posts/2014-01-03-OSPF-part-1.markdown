@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Въведение в OSPF.Част 1 - Кратко представяне на протокола."
-date:   2015-01-03 12:39:31
+date:   2014-01-03 12:39:31
 comments : true
 categories: networking
 banner_image: networking/ospf.png

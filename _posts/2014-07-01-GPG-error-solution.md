@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Решение на проблема с GPG Error"
+title:  "Ubuntu GPG error"
 date:   2014-07-01 11:39:31
 comments : true
 categories: linux
