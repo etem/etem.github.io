@@ -31,7 +31,8 @@ categories: linux
 
 
 Свалете скрипта Backspace.py.
-Създайте директорията ~/.local/share/nautilus-python/extensions/ и го поставете там.
+
+Създайте директорията **~/.local/share/nautilus-python/extensions/** и го поставете там.
 
 Рестартирайте Nautilus - **killall nautilus** и Backspace трябва да работи отново. 
 
