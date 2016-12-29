@@ -22,6 +22,7 @@ categories: linux
 **dnf install nautilus-python-1.1-10.fc24.x86_64** за Fedora 
 
 
+
 Тази добавка ни позволява да инсталираме и използваме допълнителни Python скриптове към Nautilus. 
 
 &nbsp;
@@ -29,7 +30,10 @@ categories: linux
 В случая ни ще го използваме за инсталирането на още един допълнителен [Python скрипт](https://github.com/riclc/nautilus_backspace), който ще ни върне Backspace клавиша.
 
 
-Свалете скрипта Backspace.py и го поставете в ~/.local/share/nautilus-python/extensions/. Рестартирайте Nautilus - **killall nautilus** и Backspace трябва да работи отново. 
+Свалете скрипта Backspace.py.
+Създайте директорията ~/.local/share/nautilus-python/extensions/ и го поставете там.
+
+Рестартирайте Nautilus - **killall nautilus** и Backspace трябва да работи отново. 
 
 
 
