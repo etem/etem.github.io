@@ -20,11 +20,8 @@ categories: linux
 
 
 **dnf install nautilus-python-1.1-10.fc24.x86_64** за Fedora 
-
-
-
+&nbsp;
 Тази добавка ни позволява да инсталираме и използваме допълнителни Python скриптове към Nautilus. 
-
 &nbsp;
 
 В случая ни ще го използваме за инсталирането на още един допълнителен [Python скрипт](https://github.com/riclc/nautilus_backspace), който ще ни върне Backspace клавиша.
