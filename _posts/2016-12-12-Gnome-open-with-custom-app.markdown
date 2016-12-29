@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Gnome3 open file with custom application"
-date:   2016-12-29 20:23:31
+date:   2016-12-29 21:49:31
 comments : true
 categories: linux
 ---
