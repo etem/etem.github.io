@@ -12,8 +12,8 @@ categories: linux
 
 След доста търсене успях да намеря решение на проблема. А то се състои от това да се инсталира добавка за Nautilus - [Nautilus Python](https://wiki.gnome.org/Projects/NautilusPython).
 
-
-
+&nbsp;
+&nbsp;
 Инсталира се с командите : 
 
 **apt-get install python-nautilus** за Debian/Ubuntu
@@ -21,12 +21,12 @@ categories: linux
 
 **dnf install nautilus-python-1.1-10.fc24.x86_64** за Fedora 
 
-
+&nbsp;
 
 Тази добавка ни позволява да инсталираме и използваме допълнителни Python скриптове към Nautilus. 
 
-
-
+&nbsp;
+&nbsp;
 В случая ни ще го използваме за инсталирането на още един допълнителен [Python скрипт](https://github.com/riclc/nautilus_backspace), който ще ни върне Backspace клавиша.
 
 
