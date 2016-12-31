@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Codeblocks setup - Linux"
+title:  "Linux Codeblocks setup"
 date:   2016-12-31 16:03:31
 comments : true
 categories: linux, programming
