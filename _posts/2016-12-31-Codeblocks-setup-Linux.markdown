@@ -21,7 +21,9 @@ categories: linux programming
 вместо 
 
 {
+
 ...
+
 }
 
 както би трябва да е.
