@@ -37,5 +37,4 @@ categories: linux
 Рестартирайте Nautilus - **killall nautilus** и Backspace трябва да работи отново. 
 
 
-
-
+{% include disqus.html %}

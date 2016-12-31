@@ -33,3 +33,5 @@ StartupNotify=true
 Actions=Window;Document;
 
 </code></pre>
+
+{% include disqus.html %}
