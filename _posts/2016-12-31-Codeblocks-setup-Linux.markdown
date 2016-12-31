@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Linux Codeblocks setup"
+title:  "Linux Code::Blocks setup"
 date:   2016-12-31 16:03:31
 comments : true
 categories: linux programming
 ---
 
-**Code::blocks** e от най-добрите среди за разработка на C++.
+**Code::Blocks** e от най-добрите среди за разработка на C++.
 
 Мултиплатформен  e и доста лек в сравнение с другите IDE. 
 
