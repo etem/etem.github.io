@@ -3,7 +3,7 @@ title: Bavarian's blog
 tagline: Share the knowledge...
 email: mr.cyberpower@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Networker, Cybersecurity enthusiast, Linux addict.
+  Networker | Cybersecurity enthusiast | Linux addict
 baseurl: "" # the subpath of your site, e.g. /blog/
 #url: "http://127.0.0.1" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
