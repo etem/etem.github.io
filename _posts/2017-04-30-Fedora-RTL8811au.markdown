@@ -1,0 +1,99 @@
+---
+layout: post
+title:  "Linux RTL8811AU wireless driver"
+date:   2017-04-30 22:56:00
+comments : true
+categories: linux
+---
+
+Наскоро си купих малък AC USB wireless адаптер(Comfast CF-915AC) който използва известния чипсет на Realtek - RTL8811AU. 
+Оказа се че дори и в последните версии на Linux ядрото, в случая 4.10.12 тази карта не работи out of the box. 
+
+При включване антената се разпознава като USB устройство, но не и като мрежово. 
+
+Решението, което намерих [тук](http://dustymabe.com/2016/01/24/802-11ac-on-linux-with-netgear-a6100-rtl8811au-usb-adapter/) е да се компилира ръчно драйверът качен следното [Github repository](https://github.com/Grawp/rtl8812au_rtl8821au).
+
+
+Първо трябва да се свалят *kernel-headers* - пакетът, който съдържа хедърите необходими при билдване на модули за Linux ядрото и *dkms* - софтуерът който се грижи за ребилдването на модула при всяко обновяване на ядрото :  
+
+
+```
+dnf install -y dkms kernel-devel-$(uname -r)  -  при Fedora
+apt-get install linux-headers-amd64 - при Debian/Ubuntu
+systemctl enable dkms
+```
+
+След това, както пича е написал в статията създаваме временна директория(което незадължително, може да се използва и /home/), клонираме Github repo-то и проверяваме версията на драйвера, която в случая е 4.30 и нещо си. 
+
+```
+mkdir /tmp/rtldriver && cd /tmp/rtldriver
+git clone https://github.com/Grawp/rtl8812au_rtl8821au.git
+cat rtl8812au_rtl8821au/include/rtw_version.h 
+#define DRIVERVERSION   "v4.3.20_16317.20160108"
+```
+
+
+Създаваме някаква директория, където ще се пази кода. За предпочитане е /usr/src, понеже се подразбира от името че там се държи най-вече сорс код и копираме целия код от временната директория в /tmp към /usr/src :
+
+```
+mkdir /usr/src/8812au-v4.3.20_16317.20160108
+cp -R  ./rtl8812au_rtl8821au/* /usr/src/8812au-v4.3.20_16317.20160108/
+```
+
+Нужно е да се създаде конфигурационен файл за dkms, за да знае програмата каква е версията на модула, къде да го билдва и т.н.
+
+```
+cat <<'EOF' > /usr/src/8812au-v4.3.20_16317.20160108/dkms.conf
+PACKAGE_NAME="8812au"
+PACKAGE_VERSION="4.3.20_16317.20160108"
+BUILT_MODULE_NAME[0]="8812au"
+DEST_MODULE_LOCATION[0]="/kernel/drivers/net/wireless"
+AUTOINSTALL="yes"
+MAKE[0]="'make' all KVER=${kernelver}"
+CLEAN="'make' clean"
+EOF
+
+```
+
+
+Регистрираме модула в DKMS : 
+
+```
+dkms add -m 8812au -v v4.3.20_16317.20160108
+```
+
+И накрая го билдваме : 
+
+```
+dkms install -m 8812au -v v4.3.20_16317.20160108
+
+Kernel preparation unnecessary for this kernel.  Skipping...
+
+Building module:
+cleaning build area...
+'make' all KVER=4.10.12-200.fc25.x86_64.........................
+cleaning build area...
+
+DKMS: build completed.
+
+8812au.ko:
+Running module version sanity check.
+ - Original module
+   - No original module exists within this kernel
+ - Installation
+   - Installing to /lib/modules/4.10.12-200.fc25.x86_64/extra/
+Adding any weak-modules
+
+depmod....
+
+DKMS: install completed.
+
+```
+
+
+След зареждане на модула към системата с **modprobe 8812au** устройството вече би трябва да работи. 
+
+
+При Fedora обаче по всяка вероятност драйверът няма да се зареди при следващ старт на системата. Вероятно има и по-елегантен начин, но аз лично реших проблема като добавих **modprobe 8812au** в **rc.local**. 
+
+
