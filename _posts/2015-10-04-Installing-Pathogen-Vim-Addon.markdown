@@ -43,7 +43,7 @@ git clone https://github.com/bling/vim-airline ~/.vim/bundle/vim-airline
 Можете да видите наличните теми от [тук](https://github.com/bling/vim-airline/wiki/Screenshots).
 
 
-**Забележка!**За да се изобразят специалните символи е нужно да имате инсталирани [Powerline](https://github.com/powerline/fonts) шрифтове и командата **let g:airline_powerline_fonts = 1** във vimrc файла ви.
+За да се изобразят специалните символи е нужно да имате инсталирани [Powerline](https://github.com/powerline/fonts) шрифтове и командата **let g:airline_powerline_fonts = 1** във vimrc файла ви.
 
 
 {% include disqus.html %}
