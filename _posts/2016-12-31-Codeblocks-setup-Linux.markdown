@@ -6,7 +6,7 @@ comments : true
 categories: linux programming
 ---
 
-**Code::Blocks** e от най-добрите среди за разработка на C++.
+**Code::Blocks** e един от любимите ми среди за разработка на C++.
 
 Мултиплатформен e и доста лек в сравнение с другите IDE. 
 
