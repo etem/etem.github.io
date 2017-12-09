@@ -1,6 +1,6 @@
 # Site settings
 title: Bavarian's blog
-tagline: Share the knowledge...
+tagline: ls -a | grep brain > /dev/head
 email: mr.cyberpower@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Networker | Cybersecurity enthusiast | Linux addict
